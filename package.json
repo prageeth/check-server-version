@@ -1,0 +1,28 @@
+{
+  "name": "check-server-version",
+  "version": "1.0.0",
+  "description": "Keep checking a server until the version has changed.",
+  "main": "src/index.js",
+  "bin": {
+    "check-server-version": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prageeth/check-server-version.git"
+  },
+  "keywords": [],
+  "author": "Prageeth Silva <prageethsilva@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prageeth/check-server-version/issues"
+  },
+  "homepage": "https://github.com/prageeth/check-server-version#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash.get": "^4.4.2",
+    "minimist": "^1.2.0"
+  }
+}
