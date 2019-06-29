@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Keep checking a server until the version has changed.",
   "main": "src/index.js",
-  "bin": {
-    "check-server-version": "src/cli.js"
-  },
+  "bin": "./bin/run",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
