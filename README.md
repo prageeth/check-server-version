@@ -1,4 +1,4 @@
-### check-server-version [![npm version](https://badge.fury.io/js/check-server-version.svg)](https://badge.fury.io/js/check-server-version)
+# check-server-version [![npm version](https://badge.fury.io/js/check-server-version.svg)](https://badge.fury.io/js/check-server-version)
 
 Check a server version using an endpoint that returns JSON.
 
