@@ -1,4 +1,8 @@
-### check-server-version
+### check-server-version [![npm version](https://badge.fury.io/js/check-server-version.svg)](https://badge.fury.io/js/check-server-version)
+
+Check a server version using an endpoint that returns JSON.
+
+This script will ping continuously (with a delay, for a given number of times) until the version matches a given version.
 
 ## Install
 
