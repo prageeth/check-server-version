@@ -46,7 +46,7 @@ class VersionCheckService {
                 break;
             }
             count--;
-            sleep(this.delay * 1000);
+            await sleep(this.delay * 1000);
         }
         return success;
     }
